@@ -7,7 +7,7 @@ const Lounge = ({totalOrders, addNewOrder}) => {
       <h2>Orders: {totalOrders}</h2>
       <h3>props.totalOrders</h3> 
       <h3>props.addNewOrder</h3> 
-      <button onClick={() => addNewOrder('loungeOrders')}>Add new order</button> 
+      <button onClick={() => addNewOrder()}>Add new order</button> 
     </div>
   )
 }

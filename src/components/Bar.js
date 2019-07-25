@@ -7,7 +7,7 @@ const Bar = ({ orders, addOrder }) => {
       <h2>Orders: {orders}</h2>
       <h3>props.orders</h3>
       <h3>props.addOrder</h3>
-      <button onClick={() => addOrder('barOrders')}>Add new order</button>
+      <button onClick={() => addOrder()}>Add new order</button>
     </div>
   )
 }

@@ -23,7 +23,7 @@ class Restaurant extends Component {
       <div className="component">
         <h1>Restaurant - Lifting state UP!</h1>
         <h2>Orders: {this.state.numOrders}</h2>
-        <h3>this.state.orders</h3>
+        <h3>this.state.numOrders</h3>
         <h3>this.addOrder</h3>
         <button onClick={() => this.addOrder()}>Add new order</button>
 
